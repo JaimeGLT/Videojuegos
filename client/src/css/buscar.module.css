@@ -1,0 +1,40 @@
+.buscador {
+    margin-top: 23px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(255, 255, 255, 0.849);
+    color: black
+}
+
+.buscador:hover {
+    background-color: rgba(255, 255, 255, 0.664);
+
+}
+
+.button {
+    background-image: url('../img/busqueda.png');
+    background-size: contain; /* Ajusta el tamaño de la imagen para que quepa dentro del botón */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el botón */
+    margin-left: 2px;
+    padding-top: 19px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background-color: rgba(148, 153, 156, 0.842);
+}
+
+.containerBuscador {
+    margin-top: 20px;
+}

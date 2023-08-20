@@ -1,0 +1,18 @@
+.filtros {
+    margin-top: 40px;
+
+}
+
+.select {
+    background-color: rgba(255, 255, 255, 0.726);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.opt {
+    background-color: rgba(214, 212, 212, 0.644);
+    border-radius: 10px;
+}

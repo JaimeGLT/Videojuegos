@@ -1,0 +1,33 @@
+.contenedor {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    gap: 20px;
+    max-width: 950px; /* Ajusta el ancho del contenedor según tu diseño */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+
+.noGame {
+    color: white
+}
+
+.button {
+
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 0px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.199);
+
+}
+
+.button:hover {
+    background-color: rgba(19, 129, 19, 0.849);
+    color: whitesmoke;
+}

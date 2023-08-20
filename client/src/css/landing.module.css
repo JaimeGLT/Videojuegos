@@ -1,0 +1,39 @@
+.landing {
+    height: 100vh;
+    background-image: url('../img/cropped-1366-768-474206.jpg');
+}
+
+ .overlay {
+    position: absolute; 
+    text-align: center;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.titulo {
+    color: #e5e5e5;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.button {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(240, 255, 255, 0.123);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+} 
+
+.button:hover {
+    background-color: rgba(19, 129, 19, 0.849);
+}
+
+
+
